@@ -1,0 +1,40 @@
+{
+  "projects": {
+    "default": "react-library-app-f0182",
+    "master": "react-library-app-f0182",
+    "prod": "react-library-app-f0182"
+  },
+  "ci": {
+    "copyVersion": true,
+    "createConfig": {
+      "master": {
+        "env": "staging",
+        "firebase": {
+          "apiKey": "${STAGE_FIREBASE_API_KEY}",
+          "authDomain": "react-library-app-f0182.firebaseapp.com",
+          "databaseURL": "https://react-library-app-f0182.firebaseio.com",
+          "projectId": "react-library-app-f0182",
+          "storageBucket": "react-library-app-f0182.appspot.com",
+          "messagingSenderId": "386662561878"
+        },
+        "sentryDsn": "${SENTRY_DSN}",
+        "analyticsTrackingId": "${GA_TRACKING_ID}",
+        "publicVapidKey": "${STAGE_PUBLIC_VAPID_KEY}"
+      },
+      "prod": {
+        "env": "production",
+        "firebase": {
+          "apiKey": "${PROD_FIREBASE_API_KEY}",
+          "authDomain": "react-library-app-f0182.firebaseapp.com",
+          "databaseURL": "https://react-library-app-f0182.firebaseio.com",
+          "projectId": "react-library-app-f0182",
+          "storageBucket": "react-library-app-f0182.appspot.com",
+          "messagingSenderId": "386662561878"
+        },
+        "sentryDsn": "${SENTRY_DSN}",
+        "analyticsTrackingId": "${GA_TRACKING_ID}",
+        "publicVapidKey": "${PROD_PUBLIC_VAPID_KEY}"
+      }
+    }
+  }
+}

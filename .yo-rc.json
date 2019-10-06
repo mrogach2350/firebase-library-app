@@ -1,0 +1,26 @@
+{
+  "generator-react-firebase": {
+    "promptValues": {
+      "githubUser": "mrogach2350",
+      "firebaseName": "react-library-app-f0182",
+      "firebaseKey": "AIzaSyAxyh3N-cbF20KwzFRii-QAf4sfGUT7eJM",
+      "includeRedux": true,
+      "includeFirestore": true,
+      "otherFeatures": [
+        "Continuous Integration config",
+        "Firebase Cloud Messaging",
+        "Firebase Functions (with ESNext support)",
+        "Tests for Firebase Functions (Mocha + Chai)",
+        "Tests for React Components (Jest)",
+        "Tests for UI (Cypress)",
+        "Google Analytics (react-ga)",
+        "Error Tracking (Sentry.io)",
+        "Client Side Error Reporting (Stackdriver)"
+      ],
+      "messagingSenderId": "386662561878",
+      "firebasePublicVapidKey": "BMc6EKo4mxQ3QALAN9r-V1kt6rTFj42viRsuH5ynuR7Kvx1jihNA7xB9lRXNWJVB-VTooQqkl2owM0qPw2rnUmM",
+      "ciProvider": "travis",
+      "deployTo": "firebase"
+    }
+  }
+}
