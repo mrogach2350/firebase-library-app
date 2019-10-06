@@ -9,6 +9,8 @@
 
 ## Table of Contents
 
+// minor change
+
 1. [Features](#features)
 1. [Requirements](#requirements)
 1. [Getting Started](#getting-started)
